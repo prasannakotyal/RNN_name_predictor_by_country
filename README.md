@@ -64,10 +64,8 @@ To train the model, simply run:
 python train.py
 ```
 
-### Training Options
+### Training 
 
-- The model includes **early stopping** to prevent overfitting.
-- **Data augmentation** is applied to balance imbalanced datasets.
 - The best model will be saved in the `models/` directory as `best_model.pt`.
 
 #### Example Output:
