@@ -7,8 +7,7 @@ This project is a **Name Predictor** that determines the likely country or origi
 
 - **Predicts the country of origin** for a given name.
 - Supports **adjustable top-N predictions** with probabilities.
-- **Early stopping** to prevent overfitting during training.
-- Utilizes **data augmentation** to handle class imbalance.
+
 - Simple command-line interface for predictions.
 
 ## 📂 Project Structure
@@ -77,7 +76,7 @@ python train.py
 5000 5% (0m 5s) 2.7754 Vourlis / Greek ✓
 10000 10% (0m 10s) 3.1260 CrespA / Italian ✗ (Portuguese)
 ...
-Early stopping at epoch 37. Best loss: 2.5479
+
 Training complete. Best model saved with loss: 2.5479
 ```
 
